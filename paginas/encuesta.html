@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Hostel xxx</h1>
+        </div>
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li class="nav"><a href="../index.html">Inicio</a></li>
+                    <li class="nav"><a href="../paginas/ubicacion.html">Ubicacion</a></li>
+                    <li class="nav"><a href="../paginas/galeria.html">Galeria</a></li>
+                    <li class="nav"><a href="../paginas/reservas.html">Reservas</a></li>
+                    <li class="nav"><a href="../paginas/encuesta.html">Ayudenos a mejorar</a></li>
+                    <li class="nav"><a href="../paginas/contacto.html">Contacto</a></li>
+                </ul>
+                <nav>
+        </div>
+        <!--video con imagenes desde un dron que recorre los alrededores y entra al hostel por una ventana o puerta-->
+    </header>
+    <main>
+        <div>
+            <h2>Encuesta al cliente</h2>
+        </div>
+        <div>
+            <h3>Tu opinion nos importa</h3>
+        </div>
+        <div>
+            <h4>Ayudanos a mejorar</h4>
+        </div>
+        <div>
+            <form action="" method="get" enctype="text/plain">
+                <li><label for="atencion">Calidad humana, ¿Como fuiste tratado?</label></li>
+                    <input type="radio" name="atencion" id="atencion" value="alta">Excelente, muy atentos
+                    <input type="radio" name="atencion" id="atencion" value="Media">No es en lo mejor que se destaca
+                    <input type="radio" name="atencion" id="atencion" value="baja">Muy mala atencion al publico
+                    <ul><label for="desarrolle">Si lo deseas, amplia tu respuesta</label></ul>
+                    <textarea name="desarrolle" id="desarrolle" cols="80" rows="1"></textarea>
+                <li><label for="instalaciones">Instalaciones, ¿Que puntaje del 0 al 10 le pondrias?</label></li>
+                    <input type="number" name="instalaciones" id="instalaciones" min="0" max="10">
+                    <ul><label for="desarrolle">Si lo deseas, amplia tu respuesta</label></ul>
+                    <textarea name="desarrolle" id="desarrolle" cols="80" rows="1"></textarea>
+                <li><label for="desayuno">Desayuno, ¿Que puntaje del 0 al 10 le pondrias?</label></li>
+                    <input type="number" name="desayuno" id="desayuno" min="0" max="10">
+                    <ul><label for="desarrolle">Si lo deseas, amplia tu respuesta</label></ul>
+                    <textarea name="desarrolle" id="desarrolle" cols="80" rows="1"></textarea>
+                <li><label for="web">Pagina web, ¿Te resulto funcional?</label>
+                    <ul><input type="radio" name="web" id="web" value="Muy util">Muy util / tiene todo lo que necesitaba ver
+                    <input type="radio" name="web" id="web" value="Poco practica">Poco practica / falta informacion</ul>
+                <ul><label for="desarrolle">Si lo desea, amplie su respuesta</label> </ul>
+                <textarea name="desarrolle" id="desarrolle" cols="80" rows="1"></textarea>
+                <ul><input type="submit" value="Enviar">
+                <input type="reset" value="Borrar datos"></ul>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h2 class="footer">el mejor hostel</h2>
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <title>Reservas</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Hostel xxx</h1>
+            <nav>
+                <ul class="menu">
+                    <li class="nav"><a href="../index.html">Inicio</a></li>
+                    <li class="nav"><a href="../paginas/ubicacion.html">Ubicacion</a></li>
+                    <li class="nav"><a href="../paginas/galeria.html">Galeria</a></li>
+                    <li class="nav"><a href="../paginas/reservas.html">Reservas</a></li>
+                    <li class="nav"><a href="../paginas/encuesta.html">Ayudenos a mejorar</a></li>
+                    <li class="nav"><a href="../paginas/contacto.html">Contacto</a></li>
+                </ul>
+                <nav>
+        </div>
+        <!--video con imagenes desde un dron que recorre los alrededores y entra al hostel por una ventana o puerta-->
+    </header>
+   <main>
+        <h2>Reservas</h2>
+        <hr>
+        <form action="" method="get" enctype="text/plain">
+                <ul><label for="username">Nombre y Apellido:</label>
+                <input type="text" name="username" id="username"></ul>
+                <ul<label for="tel">Telefono de contacto:</label>
+                <input type="tel" name="tel" id="tel">></ul>
+                <ul><label for="email">Mail de contacto:</label>
+                <input type="email" name="email" id="email"></ul>
+                <ul><label for="fecha">Fecha a reservar:</label>
+                <input type="month" name="fecha" id="Fecha"></ul>
+                <ul><label for="q/r">Cantidad de reservas:</label>
+                <input type="number" name="q/r" id="q/r"></ul>
+                <ul><label for="pago">Medio de pago:</label>
+                <select name="pago" id="pago">
+                    <option value="0"disabled selected>Seleccione</option>
+                    <option value="1">Efectivo</option>
+                    <option value="2">Tarjeta de debito</option>
+                    <option value="3">Tarjeta de credito</option>
+                    <option value="4">Mercado pago</option></ul>
+                </select>
+                <ul><input type="submit" value="Enviar">
+                <input type="reset" value="Borrar datos"></ul>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h2 class="footer">el mejor hostel</h2>
+        </div>
+    </footer>
+</body>
+</html>
