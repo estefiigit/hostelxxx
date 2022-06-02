@@ -34,30 +34,30 @@
         <!--video con imagenes desde un dron que recorre los alrededores y entra al hostel por una ventana o puerta-->
     </header>
     <main>
-        <h2>Contactese con nosotrxs</h2>
-        <hr>
-        <form action="" method="get" enctype="text/plain">
-            <ul>
-                <label for="username">Nombre y Apellido:</label>
-                <input type="text" name="username" id="username">
-            </ul>
-            <ul>
-                <label for="tel">Telefono de contacto:</label>
-                <input type="tel" name="tel" id="tel">
-            </ul>
-            <ul>
-                <label for="email">Mail de contacto:</label>
-                <input type="email" name="email" id="email">
-            </ul>
-            <ul>
-                <label for="desarrolle">Desarrolle lo que necesita y a la brevedad nos comunicaremos con vos:</label>
-                <textarea name="desarrolle" id="desarrolle" cols="80" rows="1"></textarea>
-            </ul>
-        </form>   
-        </ul>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar datos">
-        </form>
+        <div class="container bg-dark">
+            <h2 class="text-center">Contactese con nosotrxs</h2>
+            <form action="" method="get" enctype="text/plain">
+                <div class="container  col-lg-6 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
+                </div>
+                <div class="container  col-lg-6 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="escribe tu tel">
+                </div>
+                <div class="container  col-lg-6 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="container col-lg-6 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="Dejanos tu comentario" rows="3"></textarea>
+                </div>
+            </form>   
+                <button type="button" class="btn btn-warning">Enviar</button>
+                <button type="button" class="btn btn-warning">Borrar datos</button>
+            </form>
+        </div>
     </main>
     <footer>
         <div>

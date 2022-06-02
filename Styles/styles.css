@@ -1,12 +1,12 @@
 body {
     font-family: raleway;
+    background: linear-gradient(aqua, white);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(aqua, white);
 }
 
 
