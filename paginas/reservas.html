@@ -31,20 +31,20 @@
         <!--video con imagenes desde un dron que recorre los alrededores y entra al hostel por una ventana o puerta-->
     </header>
    <main>
-        <h2>Reservas</h2>
-        <hr>
+       <div class="container col-lg-4">        
+           <h2 class="mt-3">Reservas</h2>
         <form action="" method="get" enctype="text/plain">
-                <ul><label for="username">Nombre y Apellido:</label>
-                <input type="text" name="username" id="username"></ul>
-                <ul<label for="tel">Telefono de contacto:</label>
-                <input type="tel" name="tel" id="tel">></ul>
-                <ul><label for="email">Mail de contacto:</label>
-                <input type="email" name="email" id="email"></ul>
-                <ul><label for="fecha">Fecha a reservar:</label>
-                <input type="month" name="fecha" id="Fecha"></ul>
-                <ul><label for="q/r">Cantidad de reservas:</label>
-                <input type="number" name="q/r" id="q/r"></ul>
-                <ul><label for="pago">Medio de pago:</label>
+                <ul><label class="text-center" for="username">Nombre y Apellido:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido"></ul>
+                <ul><label class="text-center" for="tel">Telefono de contacto:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telefono"></ul>
+                <ul><label class="text-center" for="email">Mail de contacto:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email"></ul>
+                <ul><label class="text-center" for="fecha">Fecha a reservar:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Fecha de reserva"></ul>
+                <ul><label class="text-center" for="q/r">Cantidad de reservas:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Cantidad de reservas"></ul>
+                <ul><label class="text-center" for="pago">Medio de pago:</label>
                 <select name="pago" id="pago">
                     <option value="0"disabled selected>Seleccione</option>
                     <option value="1">Efectivo</option>
@@ -52,9 +52,11 @@
                     <option value="3">Tarjeta de credito</option>
                     <option value="4">Mercado pago</option></ul>
                 </select>
-                <ul><input type="submit" value="Enviar">
-                <input type="reset" value="Borrar datos"></ul>
+                <ul class="mt-3"><button type="button" class="btn btn-dark">Enviar</button>
+                    <button type="button" class="btn btn-dark">Borrar datos</button></ul>
         </form>
+    </div>
+
     </main>
     <footer>
         <div>
