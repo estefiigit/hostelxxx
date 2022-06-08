@@ -46,6 +46,10 @@ p {
     height: 200px;
 }
 
+.icons {
+    display: inline;
+}
+
 .menu {
     background-color: rgba(245, 222, 179, 0.538);
     text-decoration: none;
